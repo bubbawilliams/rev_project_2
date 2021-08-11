@@ -1,0 +1,25 @@
+<apex:page>
+    "for {!Listed_As__c}"
+    "{!Year__c} {!Name}"
+    <!-- LEFT BIASED IMAGE -->
+    <apex:image id="mainImage" value="URL" onmouseover="JAVASCRIPT"/>
+    <!-- RIGHT BIASED TEXT -->
+    "{!Price__c}"
+    "{!Price__c / 72} per month"
+    <!-- RIGHT BIASED EMAIL SECTION -->
+    "{!Lot__c.Name}"
+    "{!Lot__c.Employee__c.Name}"
+    "{!Lot__c.Employee__c.Phone_Number__c}"
+    "{!Lot__c.Employee__c.Street_Address__c}"
+    "{!Lot__c.Employee__c.Zip_Code__c}"
+    "TYPE YOUR MESSAGE HERE"
+    "FIRST NAME"    "LAST NAME"
+    "EMAIL"     "Phone Number"
+    <apex:commandButton> "Send Email" </apex:commandButton>
+    "FOLLOW LISTING CHECKBOX"
+    <!-- LEFT BIASED BOTTOM INFO -->
+    "{!Mileage__c}  {!Transmission__c}  {!Type__c}"
+    "Please call or email to set an appointment with a salesperson."
+    "NAME OF COMPANY is not responsible for any errors, omissions or inaccurate prices that may be reflected on this website. For accurate information and pricing on this or any of our vehicles, please contact us directly. Thank you for your consideration."
+    
+</apex:page>
